@@ -1,0 +1,306 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Tiro+Bangla:ital@0;1&display=swap"); 
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    list-style: none;
+    text-decoration: none;
+}
+
+body,html {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.nabbarflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+}
+
+.logo h1{
+    font-size: 70px;
+    Color:rgb(112, 118, 211);
+    transition: 0.5s;
+    
+}
+
+.logo h1:hover{
+    transform: scale(1.2);
+}
+
+.logo h1 span{
+    font-size: 30px;
+    color: rgb(18, 21, 148);
+}
+
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    font-size: 22px;
+}
+
+.menu ul li{
+    transition: .5s;
+}
+
+.menu ul li:hover{
+    transform: scale(1.5);
+
+}
+
+.wellparent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 120px;
+}
+
+.imagewell img {
+    width: 600px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.smswellcome p {
+    width: 500px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+
+.smswellcome h1 {
+    font-size: 87px;
+}
+
+.smswellcome a{
+    display: block;
+    padding: 12px 12px;
+    background-color: rgb(59, 117, 204);
+    color: aliceblue;
+    font-size: 20px;
+    width: 160px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 10px;
+    transition: .5s;
+    border: 1px solid;
+}
+
+.smswellcome a:hover{
+    background-color: transparent;
+    border: 1px solid;
+    color: rgb(59, 117, 204);
+}
+
+.textbox{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.textbox h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.image2sec{
+    margin-top: 50px;
+    height: 1075px;
+    background-color: lightblue;
+    position: relative;
+}
+
+
+.image2sec img{
+    width: 100%;
+    transition: .5s;
+}
+
+.image2sec img:hover{
+    cursor: pointer;
+}
+
+.image2sec h1{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+.image2sec p {
+    text-align: center;
+    font-size: 17px;
+    padding: 24px 60px;
+}
+
+.tourflexbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 90px;
+}
+ 
+
+
+.servicelist{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+
+.servicelist .box1{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.serviceperent{
+    display: flex;
+    flex-direction: column;
+}
+
+.serviceperent a{
+    display: block;
+    padding: 12px 12px;
+    background-color: rgb(59, 117, 204);
+    color: aliceblue;
+    font-size: 20px;
+    width: 160px;
+    text-align: center;
+    border-radius: 10px;
+    transition: .5s;
+    border: 1px solid;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.serviceperent a:hover{
+    background-color: transparent;
+    border: 1px solid;
+    color: rgb(59, 117, 204);
+}
+
+
+.endingparent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+.endimg img {
+    width: 515px;
+}
+
+
+.endtext{
+    width: 600px;
+}
+
+.endtext h1{
+    font-size: 50px;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+}
+
+.footparant{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    /* font-size: 20px; */
+}
+
+.iconiteam ul {
+    display: flex;
+
+    gap: 20px;
+    font-size: 30px;
+
+}
+
+.iconiteam ul li i{
+    color: #fff;
+    transition: .5s;
+}
+
+#fb:hover{
+    color: #9266d5;
+}
+
+#yo:hover{
+    color: red;
+
+}
+
+#ins:hover{
+    color: #ff8888;
+}
+
+#disco:hover{
+    color: #d19eff;
+}
+
+/* new code */
+
+.smswellcome p {
+    font-size: 20px;
+}
+
+.textbox p {
+    font-size: 20px;
+}
+
+.endtext p {
+    font-size: 20px;
+}
+
+.endtext a {
+    display: block;
+    padding: 12px 12px;
+    background-color: rgb(59, 117, 204);
+    color: aliceblue;
+    font-size: 20px;
+    width: 160px;
+    text-align: center;
+    border-radius: 10px;
+    transition: .5s;
+    border: 1px solid;
+    margin-top: 50px;
+}
+
+
+.endtext a:hover{
+    background-color: transparent;
+    border: 1px solid;
+    color: rgb(59, 117, 204);
+}
